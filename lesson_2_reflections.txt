@@ -4,21 +4,22 @@ Before initialization the folder is only a normal folder with one version. git i
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
-The difference is in the connection to Git. Working directory can only
-be opened in explorer, but staging area is a confirmation stage,
-where the commit is accepted or not.
+	The difference is in the connection to Git. Working directory can only
+	be opened in explorer, but staging area is a confirmation stage,
+	where the commit is accepted or not.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-By using git diff and git diff --staged, we can see what is the difference between working directory and staged area and make sure that we have one commit per logical change
+	By using git diff and git diff --staged, we can see what is the difference between working directory and staged area and make sure that we have one commit per logical change
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-Creating a test version of a program needs to have a different branch than the main program.
+	Creating a test version of a program needs to have a different branch than the main program.
 
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help me find the correct commit on each branch.
+	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
