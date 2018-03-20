@@ -18,11 +18,13 @@ organized? How would branches help?
 
 
 How do the diagrams help you visualize the branch structure?
-Diagrams help me find the correct commit on each branch.
+	Diagrams help me find the correct commit on each branch.
 	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	It results in combination of both branches, and also deletion of
+	one label.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
